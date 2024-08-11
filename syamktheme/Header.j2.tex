@@ -1,0 +1,45 @@
+\newcommand{\AND}{\unskip
+    \cleaders\copy\ANDbox\hskip\wd\ANDbox
+    \ignorespaces
+}
+\newsavebox\ANDbox
+\sbox\ANDbox{<<design.seperator_between_connections>>}
+
+((* if not design.disable_last_updated_date *))
+\placelastupdatedtext
+((* endif *))
+((* if cv.name is not none *))
+\begin{header}
+    \raggedright
+    \fontsize{<<design.header_font_size>>}{<<design.header_font_size>>}
+    \selectfont <<cv.name>> 
+    \onehalfspacing 
+    \\
+    \Large {\color{Gray}<<cv.subtitle_label>>}
+
+    \vspace{<<design.margins.header.vertical_between_name_and_connections>>}
+    \normalsize
+    ((* for connection in cv.connections *))
+        ((* if design.use_icons_for_connections *))
+    \mbox{((*- if connection["url"] -*))
+        \hrefWithoutArrow{<<connection["url"]>>}{{\scriptsize<<connection["latex_icon"]>>}\hspace*{0.05cm}<<connection["placeholder"]|escape_latex_characters>>}
+        ((*- else -*))
+        {\scriptsize<<connection["latex_icon"]>>}\hspace*{0.05cm}<<connection["placeholder"]|escape_latex_characters>>
+        ((*- endif -*))}%
+        ((* else *))
+    \mbox{((*- if connection["url"] -*))
+        \hrefWithoutArrow{<<connection["url"]>>}{<<connection["clean_url"]|escape_latex_characters>>}
+        ((*- else -*))
+        <<connection["placeholder"]|escape_latex_characters>>
+        ((*- endif -*))}%
+        ((* endif *))
+        ((* if not loop.last *))
+    \kern <<design.margins.header.horizontal_between_connections|divide_length_by(2)>>%
+    \AND%
+    \kern <<design.margins.header.horizontal_between_connections|divide_length_by(2)>>%
+        ((* endif *))
+    ((* endfor *))
+\end{header}
+
+\vspace{<<design.margins.header.bottom>> - <<design.margins.section_title.top>>} 
+((* endif *))

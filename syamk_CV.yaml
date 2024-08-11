@@ -1,0 +1,137 @@
+cv:
+  name: Syam Krishnan S 
+  phone: tel:+91-9886237395
+  location: Bengaluru
+  email: syamkrishnans@gmail.com
+  website: https://syamk.in
+  subtitle_label: Engineering Leader
+  social_networks:
+    - network: LinkedIn
+      username: syamkrishnan
+    - network: GitHub
+      username: kammathavaran
+  sections:
+    Summary:
+      - I am a seasoned techno-functional engineering leader with nearly two decades of stable experience in developing and maintaining complex, distributed, scalable, and highly available software systems. My startup experiences have made me a self-driven and results-oriented leader with exceptional people management skills and a strong entrepreneurial spirit. My work experience spans web, mobile, highly scalable SaaS, social media platforms, cloud, DevOps, analytics, and security. I am passionate about "customer delight," a lesson I carry from a brief stint as a sales executive during college.
+      - As a leader at JFrog, I was instrumental in founding and leading the Installers team, a role that demanded expertise in facilitating strong, collaborative connections both inside the company and with external stakeholders. Over the years, I have realized it is okay not to be the technical authority in the room but rather an "influencer" of ideas. I strongly believe in servant leadership.
+      - For the past 15 years, I have developed a deep proficiency in cloud technologies and DevOps practices. I have previously worked as a full-stack engineer, proficient in Go, JavaScript, web UI, PHP, Python, Kubernetes, and related technologies, before transitioning into an engineering manager role. Recently, I have developed a scholarly interest in machine learning. As a lifelong learner and problem solver, I spend my weekends studying AI/ML and contributing to open-source ML communities.
+    education:
+      - institution: IIT, Jodhpur
+        area: M.Tech in Artificial Intelligence 
+        degree: M.Tech
+        start_date: 2023
+        end_date: 2026
+        highlights:
+          - '**Coursework:** Computer Architecture, Artificial Intelligence, Machine Learning, Foundation models, LA, Statistics and Probability'
+      - institution: Manonmaniam Sundaranar University
+        area: Electronics and Communication
+        degree: B.E.
+        start_date: 
+        end_date: 2003
+        highlights:
+          - '**Coursework:** Communication theory, Telecommunication principles, Computer Science, Discrete Mathemathics'
+    experience:
+      - company: JFrog 
+        position: Senior Software Engineer
+        position2: Engineering Manager 
+        location: India / Israel 
+        start_date: 2017-11
+        end_date: 2024-08
+        highlights:
+          - As the Installers Engineering Lead, Im responsible for short and medium planning, objective setting and creating new installation types based on market adoption and demand.
+          - For the past 4 years, I do people management for 10-15 expert engineers from different timezones. As a part of the Installers team, my team owns all installers including the installation for SaaS offering. 
+          - Im part of the first 100 employees at JFrog and have worked on most parts of the JFrog platform.
+          - In an IC role, I have delivered multiple services for the JFrog platform. I wrote and maintained the metadata service in Artifactory. 
+          - Experience with compliance processes like FIPS / Ironbank etc. 
+      - company: CloudMunch  
+        position: Senior Sofware Engineer 
+        location: Bengaluru 
+        start_date: 2012-05
+        end_date: 2017-10
+        highlights:
+          - Im part of the founding team at CloudMunch team and my main contribution is the CloudMunch Insight product on which I worked exclusively, since its inception up until acquisition by JFrog. 
+          - I have worked closely with multiple customers at CloudMunch including a successful solution engineer role for Honeywell Aerospace. 
+          - Exposure to multiple devops technologies including ansible, kubernetes, helm and terraform. 
+      - company: Infosys Ltd 
+        position: Product Technical Lead 
+        position2: Technical Specialist
+        location: Bengaluru 
+        start_date: 2008-10
+        end_date: 2012-05
+        highlights:
+          - Lead a team in of 5-6 people at Infosys as part of the iEngage Enterprise team in Infosys. 
+          - My responsibilities included scheduling, code review, release cycle, delivery, perfomance and security. 
+          - Made active contributions to the design and architecture of the web component of the product. 
+      - company: SourceEdge 
+        position: Team Leader  
+        location: Bengaluru 
+        start_date: 2006-09
+        end_date: 2008-06
+        highlights:
+          - Lead a team of 8 web developers and testing engineers for PHP projects.  
+          - My responsibilities included coding, review, design and architecture, people management. 
+          - Web 2.0 applications including Yahoo! SMB website builder was delivered by my team. 
+          - Worked on media steaming applications, flash video/audio players. Y! server architecture. 
+      - company: Siliconsage / Rhinosoft 
+        position: Web Developer 
+        location: Bengaluru 
+        start_date: 2004-03
+        end_date: 2006-04
+        highlights:
+          - Siliconsage and Rhinosoft are web startups. I was the first employee and lead the web development team in Siliconsage. 
+          - Worked in various web technologies, including javascript, actionscript, flex, UI/UX creation.
+          - Created multimedia experiences using VB and Flex. 
+    certification:
+      - company: Stanford University and DeepLearning.AI 
+        position: 'Machine Learning Specialization [7WRNSMNTLTKN](https://www.coursera.org/account/accomplishments/specialization/7WRNSMNTLTKN)'
+        location: "" 
+        highlights: 
+          - Course duration ~ 3 months and lead by Dr. Andrew Ng
+    technologies:
+      - label: Languages
+        details: Go, Pure Javascript, Python, C++, C, PHP, Perl, Awk, Python, Bash, Powershell, Actionscript 
+      - label: Technologies
+        details: Kubernetes, Helm, Operators, Terraform, Crossplane, Ansible, Angular, JQuery, cloud platforms. Currently learning Numpy, Tensorflow, Keras, Pandas, 
+    "":
+      - "Made with \\LaTeX \\hspace{0.2cm} \\mbox{\\hrefWithoutArrow{https://github.com/syamk/cv}{{\\scriptsize\\faGithub}\\hspace*{0.05cm}Source}}"
+design:
+  theme: syamktheme
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
+locale_catalog:
+  to: "-" 
